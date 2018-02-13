@@ -18,7 +18,8 @@ public class ArrayList implements List {
 	
 	@Override
 	public void clear() {
-		array = null;
+		Integer[] tempArray = new Integer[10];
+		array = tempArray;
 	}
 
 	@Override
